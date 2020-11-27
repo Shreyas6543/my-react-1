@@ -1,0 +1,1995 @@
+.navbar{
+background: transparent;
+height:70px;
+display:flex;
+position:fixed;
+top:0;
+z-index:999;
+width:100%;
+left:0;
+ transition-property: background;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+}
+
+.navbar.active{
+background:white;
+border-bottom: 1px solid grey;
+}
+
+.logo{
+margin-top:0.5%;
+width:8%;
+margin-left:18%;
+ transition-property: visibility;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+  background:url("./../../images/myviwhite.png")no-repeat;
+background-size: 100%;
+position:relative;
+}
+.logo.active{
+background:url("./../../images/myviblue.png")no-repeat;
+background-size: 100%;
+}
+
+.logo:hover{
+cursor:pointer;
+}
+
+.button{
+width:5%;
+border-radius:20px;
+height: 45%;
+background: transparent;
+font-size:16px;
+font-family:verdana;
+margin-top:0.7%;
+margin-left:40%;
+border: 2px solid white;
+color:white;
+}
+.button.active{
+border: 2px solid black;
+color:black;
+}
+.button:hover{
+cursor:pointer;
+}
+.button1{
+width:7%;
+border-radius:20px;
+height: 45%;
+background:transparent;
+font-size:16px;
+font-family:verdana;
+margin-top:0.7%;
+margin-left:1%;
+border: 2px solid white;
+color:white;
+}
+.button1.active{
+border: 2px solid black;
+color:black;
+}
+.button1:hover{
+cursor:pointer;
+}
+/** banner**/
+.banner{
+filter: brightness(60%);
+width:100%;
+}
+.imgcont{
+position:relative;
+margin-top:-0.5%;
+z-index: -1;
+}
+/***card/task**/
+.taskcont{
+margin-top:-23%;
+width:88%;
+background:#dddddd;
+padding:2% 0 2% 12%;
+display:flex;
+flex-direction:row;
+}
+
+.card{
+height:380px;
+padding:10px;
+text-align:center;
+width:25%;
+margin-right:3%;
+background:white;
+border-radius:10px;
+box-shadow: 2px 2px 4px 4px #888888;
+transition-property: border;
+transition-duration: 0.3s;
+transition-timing-function: linear;
+border: 5px solid transparent;
+font-family:verdana;
+}
+
+.card:hover{
+border: 5px solid #6F83C5;}
+
+/**people**/
+.peoplecont{
+width:100%;
+background:#6F83C5;
+text-align:center;
+font-family:verdana;
+color:white;
+padding:2% 0 2% 0;
+}
+.pplflex{
+display:flex;
+flex-direction:row;
+width:89%;
+padding:0 0 2% 11%;
+}
+.pplcard{
+height:340px;
+padding:20px;
+margin-left:3%;
+width:24%;
+background:white;
+margin-top:2%;
+border-radius:10px;
+color:black;
+}
+.peoplecont p{
+font-size:15px;
+font-family:verdana;
+}
+
+.blue{
+color:#6F83C5;
+}
+/**price**/
+.pricecont{
+background:#ffffff;
+padding-top:30px;
+text-align:center;
+font-family:verdana;
+}
+.priceflex{
+display:flex;
+flex-direction:row;
+width:74%;
+padding:0 0 2% 26%;
+}
+
+.price{
+margin-right:12%;
+}
+
+
+.priceiconbg{
+width: 100px;
+height: 100px;
+background:url("./../../images/pricing1.png")no-repeat;
+background-size: 80%;
+background-position:center;
+position:relative;
+border:2px solid #6F83C5;
+border-radius:50%;
+background:white;
+}
+.priceicon{
+width: 100px;
+height: 100px;
+background:url("./../../images/pricing1.png")no-repeat;
+background-size: 70%;
+background-position:center;
+position:relative;
+}
+.priceicon2{
+width: 100px;
+height: 100px;
+background:url("./../../images/pricing2.png")no-repeat;
+background-size: 50%;
+background-position:center;
+position:relative;
+}
+.priceicon3{
+width: 100px;
+height: 100px;
+background:url("./../../images/pricing3.png")no-repeat;
+background-size: 60%;
+background-position:center;
+position:relative;
+}
+.pricetext{
+width:320px;
+height:180px;
+text-align:center;
+font-family:verdana;
+font-size:14px;
+margin:-30px 0 0 -150px;
+background:#dddddd;
+line-height:30px;
+padding:10px 40px 10px 40px;
+transition-property: background;
+transition-duration: 0.3s;
+transition-timing-function: linear;
+}
+.pricetext:hover{
+background:#6F83C5;
+cursor:pointer;
+color:white;
+}
+/**footer**/
+.footer{
+background:url("./../../images/footerbg.png")no-repeat;
+background-size: 80%;
+background-color:#152238;
+background-position:center;
+height:330px;
+padding-top:30px;
+text-align:left;
+font-family:verdana;
+border: 40px solid transparent;
+  border-image: url("./../../images/footer-strip.png") 20 round;
+padding:2% 20% 1% 20%;
+  border-top:0;
+border-left:0;
+border-right:0;
+}
+.footimg{
+width: 100px;
+height: 100px;
+background:url("./../../images/pricing3.png")no-repeat;
+background-size: 70%;
+background-position:center;
+margin:0 0 0 0;
+position:relative;
+}
+
+.vm i{
+font-size:60px;
+}
+
+.foothead
+{
+font-size:20px;
+font-weight:600;
+font-family:verdana;
+border-bottom: 2px solid #6F83C5;
+color:white;
+width : 70%;
+}
+.footbody{
+width:80%;
+}
+.foot1{
+width:25%;
+float:left;
+height:90%;
+}
+.footbody i{
+font-size:20px;
+width:20%;
+padding:15px 2px 0 0;
+float:left;
+color:white;
+}
+
+.footbody p{
+font-size:16px;
+font-family:verdana;
+color:white;
+width:70%;
+padding:2px 2px 0 0;
+float:left;
+}
+
+.social i{
+font-size:30px;
+width:30%;}
+
+.copyright{
+width:100%;
+text-align:center;
+font-size:15px;
+font-family:verdana;
+color:white;
+float:bottom;
+}
+
+
+
+
+/**-------------------------------------Laptops with touch-------------------------------------------------------------------**/
+
+@media only screen and (max-width: 1400px)
+{
+
+
+.logo{
+margin-top:1.5%;
+width:8%;
+margin-left:14%;
+ transition-property: visibility;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+  background:url("./../../images/myviwhite.png")no-repeat;
+background-size: 100%;
+position:relative;
+}
+
+
+.button{
+width:8%;
+border-radius:20px;
+height: 45%;
+background: transparent;
+font-size:16px;
+font-family:verdana;
+margin-top:1.5%;
+margin-left:50%;
+border: 2px solid white;
+color:white;
+}
+
+.button1{
+width:10%;
+border-radius:20px;
+height: 45%;
+background:transparent;
+font-size:16px;
+font-family:verdana;
+margin-top:1.5%;
+margin-left:1%;
+border: 2px solid white;
+color:white;
+}
+
+/***card/task**/
+.taskcont{
+margin-top:-23%;
+width:88%;
+background:#dddddd;
+padding:2% 0 2% 12%;
+display:flex;
+flex-direction:row;
+}
+
+.card{
+height:380px;
+padding:10px;
+text-align:center;
+width:25%;
+margin-right:3%;
+background:white;
+border-radius:10px;
+box-shadow: 2px 2px 4px 4px #888888;
+transition-property: border;
+transition-duration: 0.3s;
+transition-timing-function: linear;
+border: 5px solid transparent;
+font-family:verdana;
+}
+
+
+/**people**/
+.pplflex{
+display:flex;
+flex-direction:row;
+width:95%;
+padding:0 0 2% 1%;
+}
+.pplcard{
+height:360px;
+padding:20px;
+margin-left:3%;
+width:28%;
+background:white;
+margin-top:2%;
+border-radius:10px;
+color:black;
+}
+
+/**price**/
+
+.priceflex{
+display:flex;
+flex-direction:row;
+width:84%;
+padding:0 0 2% 16%;
+}
+
+.price{
+margin-right:15%;
+}
+
+
+.priceiconbg{
+width: 100px;
+height: 100px;
+background:url("./../../images/pricing1.png")no-repeat;
+background-size: 80%;
+background-position:center;
+position:relative;
+border:2px solid #6F83C5;
+border-radius:50%;
+background:white;
+}
+.priceicon{
+width: 100px;
+height: 100px;
+background:url("./../../images/pricing1.png")no-repeat;
+background-size: 70%;
+background-position:center;
+position:relative;
+}
+.priceicon2{
+width: 100px;
+height: 100px;
+background:url("./../../images/pricing2.png")no-repeat;
+background-size: 50%;
+background-position:center;
+position:relative;
+}
+.priceicon3{
+width: 100px;
+height: 100px;
+background:url("./../../images/pricing3.png")no-repeat;
+background-size: 60%;
+background-position:center;
+position:relative;
+}
+.pricetext{
+width:300px;
+height:180px;
+text-align:center;
+font-family:verdana;
+font-size:14px;
+margin:-30px 0 0 -150px;
+background:#dddddd;
+line-height:30px;
+padding:10px 40px 10px 40px;
+transition-property: background;
+transition-duration: 0.3s;
+transition-timing-function: linear;
+}
+
+
+.footer{
+background:url("./../../images/footerbg.png")no-repeat;
+background-size: 80%;
+background-color:#152238;
+background-position:center;
+height:330px;
+padding-top:30px;
+text-align:left;
+font-family:verdana;
+  border: 40px solid transparent;
+  border-image: url("./../../images/footer-strip.png") 20 round;
+padding:2% 10% 1% 14%;
+  border-top:0;
+border-left:0;
+border-right:0;
+}
+
+
+
+.foothead
+{
+font-size:18px;
+font-weight:600;
+font-family:verdana;
+border-bottom: 2px solid #6F83C5;
+color:white;
+width : 70%;
+}
+
+.footbody i{
+font-size:17px;
+width:20%;
+padding:15px 2px 0 0;
+float:left;
+color:white;
+}
+
+.footbody p{
+font-size:14px;
+font-family:verdana;
+color:white;
+width:70%;
+padding:2px 2px 0 0;
+float:left;
+}
+
+.social i{
+font-size:25px;
+width:30%;}
+
+.copyright{
+width:100%;
+text-align:center;
+font-size:12px;
+font-family:verdana;
+color:white;
+float:bottom;
+}
+
+}
+
+/**-------------------------------------Tab-------------------------------------------------------------------**/
+
+@media only screen and (max-width: 1100px)
+{
+
+
+.logo{
+margin-top:1.5%;
+width:8%;
+margin-left:14%;
+ transition-property: visibility;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+  background:url("./../../images/myviwhite.png")no-repeat;
+background-size: 100%;
+position:relative;
+}
+
+
+.button{
+width:8%;
+border-radius:20px;
+height: 45%;
+background: transparent;
+font-size:16px;
+font-family:verdana;
+margin-top:1.5%;
+margin-left:50%;
+border: 2px solid white;
+color:white;
+}
+
+.button1{
+width:10%;
+border-radius:20px;
+height: 45%;
+background:transparent;
+font-size:16px;
+font-family:verdana;
+margin-top:1.5%;
+margin-left:1%;
+border: 2px solid white;
+color:white;
+}
+.banner{
+filter: brightness(60%);
+width:100%;
+}
+.imgcont{
+position:relative;
+margin-top:-0.5%;
+z-index: -1;
+}
+/***card/task**/
+.taskcont{
+margin-top:-13%;
+width:96%;
+background:#dddddd;
+padding:2% 0 2% 4%;
+display:flex;
+flex-direction:row;
+}
+
+.card{
+height:380px;
+padding:10px;
+text-align:center;
+width:30%;
+margin-right:3%;
+background:white;
+border-radius:10px;
+box-shadow: 2px 2px 4px 4px #888888;
+transition-property: border;
+transition-duration: 0.3s;
+transition-timing-function: linear;
+border: 5px solid transparent;
+font-family:verdana;
+}
+.card img{
+width:80%;}
+
+/**people**/
+.pplflex{
+display:flex;
+flex-direction:row;
+width:98%;
+padding:0 0 2% 0;
+}
+.pplcard{
+height:400px;
+width:30%;
+background:white;
+margin-top:2%;
+border-radius:10px;
+color:black;
+}
+
+/**price**/
+
+.priceflex{
+display:flex;
+flex-direction:row;
+width:84%;
+padding:0 0 2% 14%;
+}
+
+.price{
+margin-right:16%;
+}
+
+
+.priceiconbg{
+width: 80px;
+height: 80px;
+background:url("./../../images/pricing1.png")no-repeat;
+background-size: 80%;
+background-position:center;
+position:relative;
+border:2px solid #6F83C5;
+border-radius:50%;
+background:white;
+}
+.priceicon{
+width: 80px;
+height: 80px;
+background:url("./../../images/pricing1.png")no-repeat;
+background-size: 70%;
+background-position:center;
+position:relative;
+}
+.priceicon2{
+width: 80px;
+height: 80px;
+background:url("./../../images/pricing2.png")no-repeat;
+background-size: 50%;
+background-position:center;
+position:relative;
+}
+.priceicon3{
+width: 80px;
+height: 80px;
+background:url("./../../images/pricing3.png")no-repeat;
+background-size: 60%;
+background-position:center;
+position:relative;
+}
+.pricetext{
+width:220px;
+height:220px;
+text-align:center;
+font-family:verdana;
+font-size:14px;
+margin:-30px 0 0 -110px;
+background:#dddddd;
+line-height:30px;
+padding:10px 40px 10px 40px;
+transition-property: background;
+transition-duration: 0.3s;
+transition-timing-function: linear;
+}
+
+
+.footer{
+background:url("./../../images/footerbg.png")no-repeat;
+background-size: 80%;
+background-color:#152238;
+background-position:center;
+height:330px;
+padding-top:30px;
+text-align:left;
+font-family:verdana;
+  border: 40px solid transparent;
+  border-image: url("./../../images/footer-strip.png") 20 round;
+padding:2% 0 1% 6%;
+  border-top:0;
+border-left:0;
+border-right:0;
+}
+
+
+
+.foothead
+{
+font-size:18px;
+font-weight:600;
+font-family:verdana;
+border-bottom: 2px solid #6F83C5;
+color:white;
+width : 70%;
+}
+
+.footbody i{
+font-size:17px;
+width:20%;
+padding:15px 2px 0 0;
+float:left;
+color:white;
+}
+
+.footbody p{
+font-size:14px;
+font-family:verdana;
+color:white;
+width:70%;
+padding:2px 2px 0 0;
+float:left;
+}
+
+.social i{
+font-size:25px;
+width:30%;}
+
+.copyright{
+width:100%;
+text-align:center;
+font-size:12px;
+font-family:verdana;
+color:white;
+float:bottom;
+}
+
+}
+
+/**-------------------------------------Tab vertical-------------------------------------------------------------------**/
+
+@media only screen and (max-width: 850px)
+{
+
+.navbar{
+background: transparent;
+height:50px;
+display:flex;
+position:fixed;
+top:0;
+z-index:999;
+width:100%;
+left:0;
+ transition-property: background;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+}
+
+.logo{
+margin-top:1.5%;
+width:8%;
+margin-left:4%;
+ transition-property: visibility;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+  background:url("./../../images/myviwhite.png")no-repeat;
+background-size: 100%;
+position:relative;
+}
+
+
+.button{
+width:8%;
+border-radius:20px;
+height: 45%;
+background: transparent;
+font-size:12px;
+font-family:verdana;
+margin-top:1.5%;
+margin-left:52%;
+border: 2px solid white;
+color:white;
+}
+
+.button1{
+width:11%;
+border-radius:20px;
+height: 45%;
+background:transparent;
+font-size:12px;
+font-family:verdana;
+margin-top:1.5%;
+margin-left:1%;
+border: 2px solid white;
+color:white;
+}
+.banner{
+filter: brightness(60%);
+width:100%;
+}
+.imgcont{
+position:relative;
+margin-top:-0.5%;
+z-index: -1;
+}
+/***card/task**/
+.taskcont{
+margin-top:-13%;
+width:96%;
+background:#dddddd;
+padding:2% 0 2% 4%;
+display:flex;
+flex-direction:column;
+}
+
+.card{
+height:180px;
+padding:10px;
+text-align:center;
+width:90%;
+margin-bottom:3%;
+background:white;
+border-radius:10px;
+box-shadow: 2px 2px 4px 4px #888888;
+transition-property: border;
+transition-duration: 0.3s;
+transition-timing-function: linear;
+border: 5px solid transparent;
+font-family:verdana;
+padding:50px 0 0 20px;;
+}
+.card img{
+width:30%;
+float:left;
+margin-top:-30px;
+}
+
+/**people**/
+.pplflex{
+display:flex;
+flex-direction:column;
+width:98%;
+padding:0 0 2% 0;
+}
+.pplcard{
+height:140px;
+width:90%;
+background:white;
+margin-top:2%;
+border-radius:10px;
+color:black;
+}
+.pplcard img{
+width:15%;
+float:left;
+}
+/**price**/
+
+.priceflex{
+display:flex;
+flex-direction:column;
+width:55%;
+padding:0 0 2% 45%;
+}
+
+.price{
+margin-bottom:16%;
+}
+
+
+.priceiconbg{
+width: 80px;
+height: 80px;
+background:url("./../../images/pricing1.png")no-repeat;
+background-size: 80%;
+background-position:center;
+position:relative;
+border:2px solid #6F83C5;
+border-radius:50%;
+background:white;
+}
+.priceicon{
+width: 80px;
+height: 80px;
+background:url("./../../images/pricing1.png")no-repeat;
+background-size: 70%;
+background-position:center;
+position:relative;
+}
+.priceicon2{
+width: 80px;
+height: 80px;
+background:url("./../../images/pricing2.png")no-repeat;
+background-size: 50%;
+background-position:center;
+position:relative;
+}
+.priceicon3{
+width: 80px;
+height: 80px;
+background:url("./../../images/pricing3.png")no-repeat;
+background-size: 60%;
+background-position:center;
+position:relative;
+}
+.pricetext{
+width:390px;
+height:160px;
+text-align:center;
+font-family:verdana;
+font-size:14px;
+margin:-30px 0 0 -190px;
+background:#dddddd;
+line-height:30px;
+padding:10px 40px 10px 40px;
+transition-property: background;
+transition-duration: 0.3s;
+transition-timing-function: linear;
+}
+
+
+.footer{
+background:url("./../../images/footerbg.png")no-repeat;
+background-size: 80%;
+background-color:#152238;
+background-position:center;
+height:330px;
+padding-top:30px;
+text-align:left;
+font-family:verdana;
+  border: 40px solid transparent;
+  border-image: url("./../../images/footer-strip.png") 20 round;
+padding:2% 0 1% 6%;
+  border-top:0;
+border-left:0;
+border-right:0;
+}
+
+
+
+.foothead
+{
+font-size:14px;
+font-weight:600;
+font-family:verdana;
+border-bottom: 2px solid #6F83C5;
+color:white;
+width : 70%;
+}
+
+.footbody i{
+font-size:12px;
+width:20%;
+padding:15px 2px 0 0;
+float:left;
+color:white;
+}
+
+.footbody p{
+font-size:12px;
+font-family:verdana;
+color:white;
+width:70%;
+padding:2px 2px 0 0;
+float:left;
+}
+
+.social i{
+font-size:20px;
+width:30%;}
+
+.copyright{
+width:100%;
+text-align:center;
+font-size:12px;
+font-family:verdana;
+color:white;
+float:bottom;
+}
+
+}
+
+/**-------------------------------------Tab vertical 2-------------------------------------------------------------------**/
+
+@media only screen and (max-width: 780px)
+{
+
+.navbar{
+background: transparent;
+height:50px;
+display:flex;
+position:fixed;
+top:0;
+z-index:999;
+width:100%;
+left:0;
+ transition-property: background;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+}
+
+.logo{
+margin-top:1.5%;
+width:8%;
+margin-left:4%;
+ transition-property: visibility;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+  background:url("./../../images/myviwhite.png")no-repeat;
+background-size: 100%;
+position:relative;
+}
+
+
+.button{
+width:10%;
+border-radius:20px;
+height: 45%;
+background: transparent;
+font-size:12px;
+font-family:verdana;
+margin-top:1.5%;
+margin-left:58%;
+border: 2px solid white;
+color:white;
+}
+
+.button1{
+width:11%;
+border-radius:20px;
+height: 45%;
+background:transparent;
+font-size:12px;
+font-family:verdana;
+margin-top:1.5%;
+margin-left:1%;
+border: 2px solid white;
+color:white;
+}
+.banner{
+filter: brightness(60%);
+width:100%;
+}
+.imgcont{
+position:relative;
+margin-top:-0.5%;
+z-index: -1;
+}
+/***card/task**/
+.taskcont{
+margin-top:-13%;
+width:96%;
+background:#dddddd;
+padding:2% 0 2% 4%;
+display:flex;
+flex-direction:column;
+}
+
+.card{
+height:180px;
+padding:10px;
+text-align:center;
+width:90%;
+margin-bottom:3%;
+background:white;
+border-radius:10px;
+box-shadow: 2px 2px 4px 4px #888888;
+transition-property: border;
+transition-duration: 0.3s;
+transition-timing-function: linear;
+border: 5px solid transparent;
+font-family:verdana;
+padding:50px 0 0 20px;;
+}
+.card img{
+width:30%;
+float:left;
+margin-top:-30px;
+}
+
+/**people**/
+.pplflex{
+display:flex;
+flex-direction:column;
+width:98%;
+padding:0 0 2% 0;
+}
+.pplcard{
+height:160px;
+width:90%;
+background:white;
+margin-top:2%;
+border-radius:10px;
+color:black;
+}
+.pplcard img{
+width:15%;
+float:left;
+}
+/**price**/
+
+.priceflex{
+display:flex;
+flex-direction:column;
+width:55%;
+padding:0 0 2% 45%;
+}
+
+.price{
+margin-bottom:16%;
+}
+
+
+.priceiconbg{
+width: 80px;
+height: 80px;
+background:url("./../../images/pricing1.png")no-repeat;
+background-size: 80%;
+background-position:center;
+position:relative;
+border:2px solid #6F83C5;
+border-radius:50%;
+background:white;
+}
+.priceicon{
+width: 80px;
+height: 80px;
+background:url("./../../images/pricing1.png")no-repeat;
+background-size: 70%;
+background-position:center;
+position:relative;
+}
+.priceicon2{
+width: 80px;
+height: 80px;
+background:url("./../../images/pricing2.png")no-repeat;
+background-size: 50%;
+background-position:center;
+position:relative;
+}
+.priceicon3{
+width: 80px;
+height: 80px;
+background:url("./../../images/pricing3.png")no-repeat;
+background-size: 60%;
+background-position:center;
+position:relative;
+}
+.pricetext{
+width:390px;
+height:160px;
+text-align:center;
+font-family:verdana;
+font-size:14px;
+margin:-30px 0 0 -190px;
+background:#dddddd;
+line-height:30px;
+padding:10px 40px 10px 40px;
+transition-property: background;
+transition-duration: 0.3s;
+transition-timing-function: linear;
+}
+
+
+.footer{
+background:url("./../../images/footerbg.png")no-repeat;
+background-size: 80%;
+background-color:#152238;
+background-position:center;
+height:330px;
+padding-top:30px;
+text-align:left;
+font-family:verdana;
+  border: 40px solid transparent;
+  border-image: url("./../../images/footer-strip.png") 20 round;
+padding:2% 0 1% 6%;
+  border-top:0;
+border-left:0;
+border-right:0;
+}
+
+
+
+.foothead
+{
+font-size:14px;
+font-weight:600;
+font-family:verdana;
+border-bottom: 2px solid #6F83C5;
+color:white;
+width : 70%;
+}
+
+.footbody i{
+font-size:12px;
+width:20%;
+padding:15px 2px 0 0;
+float:left;
+color:white;
+}
+
+.footbody p{
+font-size:12px;
+font-family:verdana;
+color:white;
+width:70%;
+padding:2px 2px 0 0;
+float:left;
+}
+
+.social i{
+font-size:20px;
+width:30%;}
+
+.copyright{
+width:100%;
+text-align:center;
+font-size:12px;
+font-family:verdana;
+color:white;
+float:bottom;
+}
+
+}
+/**-------------------------------------Big phone landscape-------------------------------------------------------------------**/
+
+@media only screen and (max-width: 700px)
+{
+
+.navbar{
+background: transparent;
+height:50px;
+display:flex;
+position:fixed;
+top:0;
+z-index:999;
+width:100%;
+left:0;
+ transition-property: background;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+}
+
+.logo{
+margin-top:1.5%;
+width:8%;
+margin-left:4%;
+ transition-property: visibility;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+  background:url("./../../images/myviwhite.png")no-repeat;
+background-size: 100%;
+position:relative;
+}
+
+
+.button{
+width:10%;
+border-radius:20px;
+height: 45%;
+background: transparent;
+font-size:12px;
+font-family:verdana;
+margin-top:1.5%;
+margin-left:60%;
+border: 2px solid white;
+color:white;
+}
+
+.button1{
+width:14%;
+border-radius:20px;
+height: 45%;
+background:transparent;
+font-size:12px;
+font-family:verdana;
+margin-top:1.5%;
+margin-left:1%;
+border: 2px solid white;
+color:white;
+}
+.banner{
+filter: brightness(60%);
+width:100%;
+}
+.imgcont{
+position:relative;
+margin-top:-0.5%;
+z-index: -1;
+}
+/***card/task**/
+.taskcont{
+margin-top:-13%;
+width:96%;
+background:#dddddd;
+padding:2% 0 2% 4%;
+display:flex;
+flex-direction:column;
+}
+
+.card{
+height:180px;
+padding:10px;
+text-align:center;
+width:90%;
+margin-bottom:3%;
+background:white;
+border-radius:10px;
+box-shadow: 2px 2px 4px 4px #888888;
+transition-property: border;
+transition-duration: 0.3s;
+transition-timing-function: linear;
+border: 5px solid transparent;
+font-family:verdana;
+padding:50px 0 0 20px;;
+}
+.card img{
+width:30%;
+float:left;
+margin-top:-30px;
+}
+
+/**people**/
+.pplflex{
+display:flex;
+flex-direction:column;
+width:98%;
+padding:0 0 2% 0;
+}
+.pplcard{
+height:180px;
+width:90%;
+background:white;
+margin-top:2%;
+border-radius:10px;
+color:black;
+}
+.pplcard img{
+width:15%;
+float:left;
+}
+/**price**/
+
+.priceflex{
+display:flex;
+flex-direction:column;
+width:55%;
+padding:0 0 2% 45%;
+}
+
+.price{
+margin-bottom:16%;
+}
+
+
+.priceiconbg{
+width: 80px;
+height: 80px;
+background:url("./../../images/pricing1.png")no-repeat;
+background-size: 80%;
+background-position:center;
+position:relative;
+border:2px solid #6F83C5;
+border-radius:50%;
+background:white;
+}
+.priceicon{
+width: 80px;
+height: 80px;
+background:url("./../../images/pricing1.png")no-repeat;
+background-size: 70%;
+background-position:center;
+position:relative;
+}
+.priceicon2{
+width: 80px;
+height: 80px;
+background:url("./../../images/pricing2.png")no-repeat;
+background-size: 50%;
+background-position:center;
+position:relative;
+}
+.priceicon3{
+width: 80px;
+height: 80px;
+background:url("./../../images/pricing3.png")no-repeat;
+background-size: 60%;
+background-position:center;
+position:relative;
+}
+.pricetext{
+width:390px;
+height:160px;
+text-align:center;
+font-family:verdana;
+font-size:14px;
+margin:-30px 0 0 -190px;
+background:#dddddd;
+line-height:30px;
+padding:10px 40px 10px 40px;
+transition-property: background;
+transition-duration: 0.3s;
+transition-timing-function: linear;
+}
+
+
+.footer{
+background:url("./../../images/footerbg.png")no-repeat;
+background-size: 80%;
+background-color:#152238;
+background-position:center;
+height:330px;
+padding-top:30px;
+text-align:left;
+font-family:verdana;
+  border: 40px solid transparent;
+  border-image: url("./../../images/footer-strip.png") 20 round;
+padding:2% 0 1% 6%;
+  border-top:0;
+border-left:0;
+border-right:0;
+}
+
+
+
+.foothead
+{
+font-size:14px;
+font-weight:600;
+font-family:verdana;
+border-bottom: 2px solid #6F83C5;
+color:white;
+width : 70%;
+}
+
+.footbody i{
+font-size:12px;
+width:20%;
+padding:15px 2px 0 0;
+float:left;
+color:white;
+}
+
+.footbody p{
+font-size:12px;
+font-family:verdana;
+color:white;
+width:70%;
+padding:2px 2px 0 0;
+float:left;
+}
+
+.social i{
+font-size:20px;
+width:30%;}
+
+.copyright{
+width:100%;
+text-align:center;
+font-size:12px;
+font-family:verdana;
+color:white;
+float:bottom;
+}
+
+}
+
+/**-------------------------------------Small phone landscape-------------------------------------------------------------------**/
+
+@media only screen and (max-width: 700px)
+{
+
+.navbar{
+background: transparent;
+height:45px;
+display:flex;
+position:fixed;
+top:0;
+z-index:999;
+width:100%;
+left:0;
+ transition-property: background;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+}
+
+.logo{
+margin-top:2.5%;
+width:8%;
+margin-left:4%;
+ transition-property: visibility;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+  background:url("./../../images/myviwhite.png")no-repeat;
+background-size: 100%;
+position:relative;
+}
+
+
+.button{
+width:12%;
+border-radius:20px;
+height: 45%;
+background: transparent;
+font-size:12px;
+font-family:verdana;
+margin-top:1.5%;
+margin-left:45%;
+border: 0.5px solid white;
+color:white;
+}
+.button.active{
+border: 0.5px solid black;
+color:black;
+}
+.button1{
+width:14%;
+border-radius:20px;
+height: 45%;
+background:transparent;
+font-size:12px;
+font-family:verdana;
+margin-top:1.5%;
+margin-left:1%;
+border: 0.5px solid white;
+color:white;
+padding:2px;
+}
+.button1.active{
+border: 0.5px solid black;
+color:black;
+}
+.banner{
+filter: brightness(60%);
+width:100%;
+}
+.imgcont{
+position:relative;
+margin-top:-0.5%;
+z-index: -1;
+}
+/***card/task**/
+.taskcont{
+margin-top:-13%;
+width:96%;
+background:#dddddd;
+padding:2% 0 2% 4%;
+display:flex;
+flex-direction:column;
+}
+
+.card{
+height:180px;
+padding:10px;
+text-align:center;
+width:90%;
+margin-bottom:3%;
+background:white;
+border-radius:10px;
+box-shadow: 2px 2px 4px 4px #888888;
+transition-property: border;
+transition-duration: 0.3s;
+transition-timing-function: linear;
+border: 5px solid transparent;
+font-family:verdana;
+padding:50px 0 0 20px;;
+}
+.card img{
+width:30%;
+float:left;
+margin-top:-30px;
+}
+
+/**people**/
+.pplflex{
+display:flex;
+flex-direction:column;
+width:98%;
+padding:0 0 2% 0;
+}
+.pplcard{
+height:180px;
+width:90%;
+background:white;
+margin-top:2%;
+border-radius:10px;
+color:black;
+}
+.pplcard img{
+width:15%;
+float:left;
+}
+/**price**/
+
+.priceflex{
+display:flex;
+flex-direction:column;
+width:59%;
+padding:0 0 2% 41%;
+}
+
+.price{
+margin-bottom:16%;
+}
+
+
+.priceiconbg{
+width: 80px;
+height: 80px;
+background:url("./../../images/pricing1.png")no-repeat;
+background-size: 80%;
+background-position:center;
+position:relative;
+border:2px solid #6F83C5;
+border-radius:50%;
+background:white;
+}
+.priceicon{
+width: 80px;
+height: 80px;
+background:url("./../../images/pricing1.png")no-repeat;
+background-size: 70%;
+background-position:center;
+position:relative;
+}
+.priceicon2{
+width: 80px;
+height: 80px;
+background:url("./../../images/pricing2.png")no-repeat;
+background-size: 50%;
+background-position:center;
+position:relative;
+}
+.priceicon3{
+width: 80px;
+height: 80px;
+background:url("./../../images/pricing3.png")no-repeat;
+background-size: 60%;
+background-position:center;
+position:relative;
+}
+.pricetext{
+width:390px;
+height:160px;
+text-align:center;
+font-family:verdana;
+font-size:14px;
+margin:-30px 0 0 -190px;
+background:#dddddd;
+line-height:30px;
+padding:10px 40px 10px 40px;
+transition-property: background;
+transition-duration: 0.3s;
+transition-timing-function: linear;
+}
+
+
+.footer{
+background:url("./../../images/footerbg.png")no-repeat;
+background-size: 80%;
+background-color:#152238;
+background-position:center;
+height:260px;
+padding-top:30px;
+text-align:left;
+font-family:verdana;
+  border: 40px solid transparent;
+  border-image: url("./../../images/footer-strip.png") 20 round;
+padding:2% 0 1% 6%;
+  border-top:0;
+border-left:0;
+border-right:0;
+}
+
+
+
+.foothead
+{
+font-size:12px;
+font-weight:600;
+font-family:verdana;
+border-bottom: 2px solid #6F83C5;
+color:white;
+width : 70%;
+}
+
+.footbody i{
+font-size:10px;
+width:20%;
+padding:15px 2px 0 0;
+float:left;
+color:white;
+}
+
+.footbody p{
+font-size:10px;
+font-family:verdana;
+color:white;
+width:70%;
+padding:2px 2px 0 0;
+float:left;
+}
+
+.social i{
+font-size:20px;
+width:30%;}
+
+.copyright{
+width:100%;
+text-align:center;
+font-size:8px;
+font-family:verdana;
+color:white;
+float:bottom;
+}
+
+}
+/**-------------------------------------Small phone potrait-------------------------------------------------------------------**/
+
+@media only screen and (max-width: 450px)
+{
+
+.navbar{
+background: transparent;
+height:45px;
+display:flex;
+position:fixed;
+top:0;
+z-index:999;
+width:100%;
+left:0;
+ transition-property: background;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+}
+
+.logo{
+margin-top:3.5%;
+width:20%;
+margin-left:4%;
+ transition-property: visibility;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+  background:url("./../../images/myviwhite.png")no-repeat;
+background-size: 100%;
+position:relative;
+}
+
+
+.button{
+width:18%;
+border-radius:20px;
+height: 45%;
+background: transparent;
+font-size:10px;
+font-family:verdana;
+margin-top:2.5%;
+margin-left:38%;
+border: 0.2px solid white;
+color:white;
+}
+.button.active{
+border: 0.2px solid black;
+color:black;
+}
+.button1{
+width:24%;
+border-radius:20px;
+height: 45%;
+background:transparent;
+font-size:10px;
+font-family:verdana;
+margin-top:2.5%;
+margin-left:1%;
+border: 0.05px solid white;
+color:white;
+padding:2px;
+}
+.button1.active{
+border: 0.05px solid black;
+color:black;
+}
+.banner{
+filter: brightness(60%);
+width:100%;
+}
+.imgcont{
+position:relative;
+margin-top:-0.5%;
+z-index: -1;
+}
+/***card/task**/
+.taskcont{
+margin-top:0;
+width:96%;
+background:#dddddd;
+padding:2% 0 2% 4%;
+display:flex;
+flex-direction:column;
+}
+
+.card{
+height:120px;
+padding:10px;
+text-align:center;
+width:90%;
+margin-bottom:3%;
+background:white;
+border-radius:10px;
+box-shadow: 2px 2px 4px 4px #888888;
+transition-property: border;
+transition-duration: 0.3s;
+transition-timing-function: linear;
+border: 5px solid transparent;
+font-family:verdana;
+padding:10px 0 0 20px;;
+}
+.card h2{
+font-size:16px;
+}
+.card p{
+font-size:12px;
+}
+.card img{
+width:40%;
+float:left;
+margin-top:0px;
+}
+
+/**people**/
+.peoplecont h1{
+font-size:18px;
+}
+.peoplecont p{
+font-size:11px;
+}
+.peoplecont h5{
+font-size:12px;
+}
+.pplflex{
+display:flex;
+flex-direction:column;
+width:98%;
+padding:0 0 2% 0;
+}
+.pplcard{
+height:190px;
+width:83%;
+background:white;
+margin-top:2%;
+border-radius:10px;
+color:black;
+}
+.pplcard img{
+width:25%;
+float:left;
+}
+/**price**/
+.pricecont h1{
+font-size:18px;
+}
+.pricecont h2{
+font-size:14px;
+}
+.priceflex{
+display:flex;
+flex-direction:column;
+width:59%;
+padding:0 0 2% 41%;
+}
+
+.price{
+margin-bottom:16%;
+}
+
+
+.priceiconbg{
+width: 60px;
+height: 60px;
+background:url("./../../images/pricing1.png")no-repeat;
+background-size: 60%;
+background-position:center;
+position:relative;
+border:2px solid #6F83C5;
+border-radius:50%;
+background:white;
+}
+.priceicon{
+width: 60px;
+height: 60px;
+background:url("./../../images/pricing1.png")no-repeat;
+background-size: 50%;
+background-position:center;
+position:relative;
+}
+.priceicon2{
+width: 60px;
+height: 60px;
+background:url("./../../images/pricing2.png")no-repeat;
+background-size: 30%;
+background-position:center;
+position:relative;
+}
+.priceicon3{
+width: 60px;
+height: 60px;
+background:url("./../../images/pricing3.png")no-repeat;
+background-size: 40%;
+background-position:center;
+position:relative;
+}
+.pricetext{
+width:200px;
+height:160px;
+text-align:center;
+font-family:verdana;
+font-size:12px;
+margin:-30px 0 0 -110px;
+background:#dddddd;
+line-height:12px;
+padding:10px 40px 10px 40px;
+transition-property: background;
+transition-duration: 0.3s;
+transition-timing-function: linear;
+}
+
+
+.footer{
+background:url("./../../images/footerbg.png")no-repeat;
+background-size: 80%;
+background-color:#152238;
+background-position:center;
+height:300px;
+padding-top:30px;
+text-align:left;
+font-family:verdana;
+  border: 40px solid transparent;
+  border-image: url("./../../images/footer-strip.png") 20 round;
+padding:2% 0 1% 6%;
+  border-top:0;
+border-left:0;
+border-right:0;
+}
+
+
+
+.foothead
+{
+font-size:10px;
+font-weight:600;
+font-family:verdana;
+border-bottom: 2px solid #6F83C5;
+color:white;
+width : 70%;
+}
+
+.footbody i{
+font-size:8px;
+width:20%;
+padding:15px 2px 0 0;
+float:left;
+color:white;
+}
+
+.footbody p{
+font-size:8px;
+font-family:verdana;
+color:white;
+width:75%;
+padding:2px 2px 0 0;
+float:left;
+}
+
+.social i{
+font-size:15px;
+width:30%;}
+
+.copyright{
+width:100%;
+text-align:center;
+font-size:8px;
+font-family:verdana;
+color:white;
+float:bottom;
+}
+.foot1{
+width:50%;
+float:left;
+height:45%;
+}
+
+}
